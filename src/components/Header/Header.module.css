@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    margin: 30px auto 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo > img{
+    width: 295px;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #09203f;
+}
+
+nav ul li a.contato {
+    padding: 8px;
+    border-radius: 8px;
+    background: #09203f;
+    background: linear-gradient(45deg, #09203f 0%, #537895 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09203f', endColorstr='#537895',GradientType=1 );
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}

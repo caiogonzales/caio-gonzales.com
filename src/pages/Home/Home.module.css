@@ -1,0 +1,72 @@
+.home{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.callToAction{
+    width: 448px;
+    height: 300px;
+    margin: 150px 50px;
+    color: #00516c;
+}
+
+.callToAction h1 {
+    font-weight: 400;
+    font-size: 69px;
+}
+
+.callToAction h2 {
+    font-weight: 700;
+    font-size: 69px;
+    letter-spacing: 9px;
+}
+
+.callToAction p {
+    font-size: 15px;
+    color: #a8a7a7;
+    margin: 25px 0;
+    font-weight: 400;
+}
+
+.bgIlustracao {
+    background-image: url(../../assets/images/bgilustracao.png);
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 891px;
+    height: 700px;
+    z-index: -1;
+}
+
+.illustration {
+    background-image: url(../../assets/images/illustration3.png);
+    position: absolute;
+    right: 19%;
+    top: 207px;
+    width: 422px;
+    height: 430px;
+    z-index: 8;
+}
+
+.solucoes { 
+    padding: 8px;
+    border-radius: 8px;
+    background: #09203f;
+    background: linear-gradient(45deg, #09203f 0%, #537895 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09203f', endColorstr='#537895',GradientType=1 );
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contato {
+    text-decoration: none;
+    color: #00516c;
+}
